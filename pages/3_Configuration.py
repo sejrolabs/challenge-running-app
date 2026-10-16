@@ -11,7 +11,7 @@ rules,participants,challenge=st.tabs(["📐 Règles","👥 Participants","🗓�
 with rules:
     st.subheader("Coefficients et bonus")
     data=[
-        ["Coef_Course","2,0","Coefficient de base pour la course"],
+        ["Coef_Course","1,5","Coefficient de base pour la course"],
         ["Coef_Marche","1,0","Coefficient de base pour la marche"],
         ["Bonus_Constance_5j","10 %","Au moins 5 jours actifs sur une semaine"],
         ["Bonus_Constance_4j","5 %","4 jours actifs sur une semaine"],

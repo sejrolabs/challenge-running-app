@@ -1,6 +1,6 @@
 import pandas as pd
 
-COEF_TYPE = {"Course": 2.0, "Marche": 1.0}
+COEF_TYPE = {"Course": 1.5, "Marche": 1.0}
 
 def coef_allure_course(allure_min_km: float) -> float:
     if allure_min_km < 4: return 1.8
